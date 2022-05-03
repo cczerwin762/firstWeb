@@ -1,0 +1,31 @@
+a{
+  display: block;
+  color: #ffffff;
+  background: #000000;
+}
+a:visited{
+  background: #FF0000;
+  color: #00FF00
+}
+a:hover{
+  background: #0000FF
+}
+.classA{
+  height: 125px;
+  background: #FF00FF;
+  text-align: center;
+}
+.classB{
+  height: 250px;
+  background: #00FF00;
+  padding-top: 120px;
+}
+#A{
+  color: #0000FF;
+}
+#B{
+  color: #00FF00;
+}
+#C{
+  color: #FF0011;
+}
