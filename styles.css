@@ -15,7 +15,8 @@ a:hover{
 }
 .classA{
   height: 125px;
-  background: #FF00FF;
+  background: -webkit-linear-gradient(right, #FF0000 0%, #0000FF 100%);
+  background: linear-gradient(right, #FF0000 0%, #0000FF 100%);
   text-align: center;
 }
 .classB{
