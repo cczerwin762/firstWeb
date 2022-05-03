@@ -7,6 +7,9 @@ a:visited{
   background: #FF0000;
   color: #00FF00
 }
+a[href*="2"]{
+  font-size: 35px;
+}
 a:hover{
   background: #0000FF
 }
