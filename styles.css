@@ -15,20 +15,54 @@ a:hover{
 }
 .classA{
   height: 125px;
+  background: #0000FF;
+  text-align: center;
+}
+.classA:hover{
   background: -webkit-linear-gradient(right, #FF0000 0%, #0000FF 100%);
   background: linear-gradient(right, #FF0000 0%, #0000FF 100%);
-  text-align: center;
 }
 .classB{
   height: 250px;
   background: #00FF00;
   padding-top: 120px;
+  transition-property: background, height;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+  transition-delay: .5s;
+}
+.classB:hover{
+  background: #FF00FF;
+}
+.classB:active{
+  height: 150px;
+  background: #964B00;
+}
+.classC{
+  margin: 200px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-style: solid;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  background: #fff;
+  -webkit-transition: background 1s, color 1s, -webkit-transform 1s;
+  transition-property: background, color, transform;
+  transition-duration: 1s, 1s, 1s, 1s;
+}
+.classC:hover{
+  background: #000;
+  color: #fff;
+  -webkit-transfrom: rotate(360deg);
+  transform: rotate(360deg);
 }
 #A{
   color: #0000FF;
 }
 #B{
   color: #00FF00;
+  width: 100 px;
 }
 #C{
   color: #FF0011;
